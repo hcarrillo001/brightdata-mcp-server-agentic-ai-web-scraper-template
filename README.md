@@ -7,6 +7,19 @@ BrightData MCP Server Agentic AI Web Scraper Template
       Tkinter GUI lets you describe what to scrape in plain English — no coding required.
       I can envison tool also reading step from QC/ALM and feed the agent the steps 
 
+Important Libraries 
+
+| Library                      | Description                                                                                 |
+| ---------------------------- | ------------------------------------------------------------------------------------------- |
+| **`mcp`**                    | Interface to the Mission Control Platform for managing parameters, sessions, and telemetry. |
+| **`langchain_mcp_adapters`** | MCP-compatible tools and agents for use with LangChain.                                     |
+| **`langgraph`**              | Enables graph-based, reactive agent flows.                                                  |
+| **`langchain_anthropic`**    | Integration for Claude language models.                                                     |
+| **`dotenv`**                 | Loads sensitive config (API keys, MCP params) from a `.env` file.                           |
+| **`asyncio`**                | Enables asynchronous execution of agent operations.                                         |
+| **`os`**                     | Used to access environment variables.                                                       |
+
+
 ✨ Key Features
 🌐 Bright Data MCP Proxy Integration
      
